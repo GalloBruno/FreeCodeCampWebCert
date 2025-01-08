@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una página de portafolio personal creada para la Certificación de Diseño Web Responsivo de freeCodeCamp.">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="nav">
+    <ul>
+      <li>
+        <a href="#about">
+          <span class="code">&lt;</span>
+          Sobre mí
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+      <li>
+        <a href="#projects">
+          <span class="code">&lt;</span>
+          Proyectos
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <span class="code">&lt;</span>
+          Contacto
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section">
+    <div>
+      <h1>Hola<span>,</span></h1>
+      <p id="subheading">Soy <span style="color: #ff4500;">Bruno</span></p>
+    </div>
+    <div>
+      <img class="welcome-img" id="desktop-only" src="images/C_code.svg" alt="A code snippet in C language">
+      <img class="welcome-img" id="mobile-only" src="images/C_code.svg" alt="A code snippet in C language">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Mi Historia:</h2>
+    <div id="about-container">
+      <div id="my-story">
+        <p>Soy estudiante de Licenciatura en Sistemas de Informacion y con notable experiencia en ciencias de datos y programación. También soy Emprendedor y Autodidacta, interesado en todos los aspectos de la tecnología, especialmente en la programacion front-end y back-end, Inteligencia Artificial e IoT. Me apasiona el Arte y el Diseño y me encanta crear cosas. Disfruto mucho aprender cosas nuevas y siempre estoy abierto a nuevas ideas y proyectos.</p>
+      </div>
+      <div id="interests-list">
+        <h3>Intereses</h3>
+        <ul>
+          <li>Programación</li>
+          <li>Visualizacion y Procesamiento de Datos</li>
+          <li>Desarrollo de Aplicaciones y Web</li>
+          <li>Aprendizaje Continuo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Mi Trabajo:</h2>
+    <p>Aquí hay una lista de proyectos que construí para la Certificación de Diseño Web Responsivo en freeCodeCamp.</p>
+
+    <div class="projects-grid">
+      <div class="card">
+        <div class="project-img">
+          <img src="../tribute-page/images/PaginaDeTributoPreview.png" alt="tribute page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://github.com/sfoteini/responsive-web-design-freeCodeCamp/tree/master/tribute-page" style="color: #ff4500;">Tribute Page</a>
+          </h3>
+          <p>A tribute page dedicated to Provincia de Corrientes, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="../survey-form/images/surveypreview.png" alt="survey form">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://github.com/sfoteini/responsive-web-design-freeCodeCamp/tree/master/survey-form" style="color: #ff4500;">Survey Form</a>
+          </h3>
+          <p>A survey form UI for an online course, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="../product-landing-page/images/previewlanding.png" alt="product landing page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://github.com/sfoteini/responsive-web-design-freeCodeCamp/tree/master/product-landing-page" style="color: #ff4500;">Product Landing Page</a>
+          </h3>
+          <p>A product landing page for a sleep tracking app, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="../technical-documentation-page/images/PreviewDocumentacionTecnica.png" alt="technical documentation page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://github.com/sfoteini/responsive-web-design-freeCodeCamp/tree/master/technical-documentation-page" style="color: #ff4500;">Technical Documentation Page</a>
+          </h3>
+          <p>A technical documentation page made for HTML</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="images/293_1x_shots_so.png" alt="personal portfolio">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://github.com/sfoteini/responsive-web-design-freeCodeCamp/tree/master/personal-portfolio" style="color: #ff4500;">Personal Portfolio Webpage</a>
+          </h3>
+          <p>A static personal portfolio, built with HTML and CSS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Trabajemos juntos</h2>
+    <p>Encontrame en</p>
+    <div class="contact-links">
+      <a href="https://twitter.com/GalloBruno" target="_blank" class="contact-details">
+        <img src="images/twitter.svg" alt="twitter logo" class="contact-icon">Twitter
+      </a>
+      <a href="https://www.linkedin.com/in/GalloBrunoNicolas" target="_blank" class="contact-details">
+        <img src="images/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
+      </a>
+      <a href="https://github.com/GalloBruno" target="_blank" class="contact-details">
+        <img src="images/github.svg" alt="github logo" class="contact-icon">GitHub
+      </a>
+      <a id="profile-link" href="https://www.freecodecamp.org/BrunoNicolasGallo" target="_blank" class="contact-details">
+        <img src="images/freecodecamp.svg" alt="freeCodeCamp logo" class="contact-icon">freeCodeCamp
+      </a>
+      <a href="https://codepen.io/GalloBruno" class="contact-details">
+        <img src="images/codepen.svg" alt="CodePen logo" class="contact-icon">Codepen
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <span class="code">&lt;</span>
+      <span class="code">&#47;&gt;</span>
+      por <span style="color: #ff4500;">Bruno</span>
+    </p>
+  </footer>
+
+</body>
+
+</html>
