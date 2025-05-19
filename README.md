@@ -13,3 +13,7 @@ Estos proyectos están hechos para la Certificación de Diseño Web Responsivo d
 * **Portafolio Personal**: [Página](https://codepen.io/GalloBruno/pen/yyBpWrx) | [Requisitos](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
 
 <br/>
+
+[![Certificado Responsive Web Design](assets/WebCert.png)](https://freecodecamp.org/certification/BrunoNicolasGallo/responsive-web-design)
+
+Obtenido en [freeCodeCamp](https://freecodecamp.org/) por completar el curso de **Responsive Web Design**.
